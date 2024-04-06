@@ -12,11 +12,7 @@ const UsersPage = async () => {
     
   return (
     <>
-    <h1 className='text-3xl text-red-600'>Users page</h1>
-    <p>{new Date().toLocaleTimeString()}</p>
-    <ul>
-        {users.map((user=> <li key={user.id}>{user.name}</li>))}
-    </ul>
+      <h1 className='text-3xl text-red-600'>Users page</h1>
     </>
   )
 }
